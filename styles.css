@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: blue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    padding: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.image-container {
+    text-align: center;
+    padding: 50px;
+    word-wrap: break-word; /* Wrap text within the content div */
+}
+textarea {
+    width: 80%; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.content{
+    text-align: center;
+}
